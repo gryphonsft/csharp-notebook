@@ -10,8 +10,8 @@ namespace CalısmaNotlarim
     {
         static void Main(string[] args)
         {
-            Struct.Structs(); // Struct.cs dosyası
-            Enum.Enums(); // Enum.cs dosyası
+            Struct101.Structs(); // Struct.cs dosyası
+            Enum101.Enums(); // Enum.cs dosyası
         }
     }
 }

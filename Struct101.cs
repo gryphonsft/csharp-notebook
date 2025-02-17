@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CalısmaNotlarim
 {
-    internal class Struct
+    internal class Struct101
     {
         struct Futbolcu
         {

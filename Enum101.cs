@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CalısmaNotlarim
 {
     
-    internal class Enum
+    internal class Enum101
     {
         enum Aylar
         {
@@ -26,13 +26,11 @@ namespace CalısmaNotlarim
         }
        public static void Enums()
         {
-            int ayno;
-            Console.Write("Ay numarası:");
-            ayno = Convert.ToInt32(Console.ReadLine());
-            Aylar ay = (Aylar)ayno;
-            Console.WriteLine("Girilen değere karşılık gelen ay: "+ay);
-            Console.ReadLine();
-
+            foreach (string ayadı in Enum.GetNames(typeof(Aylar)))
+            {
+                Console.WriteLine(ayadı);
+            }
+            Console.ReadKey();
         }
     }
 }
