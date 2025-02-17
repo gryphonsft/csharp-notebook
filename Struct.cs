@@ -15,7 +15,8 @@ namespace CalısmaNotlarim
             public string mevki;
             public int yas;
         }
-        static void Main(string[] args)
+       
+        public static void Structs()
         {
             Futbolcu nesne = new Futbolcu();
             Console.Write("Lütfen isminizi giriniz: ");
